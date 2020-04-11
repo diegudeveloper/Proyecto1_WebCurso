@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.container_clientes {
+    margin-bottom: 60px;
+}
+
+.clientes {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientes .text_clientes {
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-transform: uppercase;
+}
+
+.clientes .containercards {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientes .containercards .cards_container {
+    width: 48%;
+    padding: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #AA076B;
+    margin: 3px;
+    border-radius: 0.5rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.clientes .containercards .foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-items: center;
+    display: block;
+}
+
+
+.clientes .containercards .cards_container .conta {
+    width: 68%;
+    padding: 2rem;
+}
+
+.clientes .containercards .foto img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.clientes .containercards .cards_container h3 {
+    width: 100%;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.clientes .containercards .cards_container p {
+    width: 100%;
+    text-align: justify;
+    color: #fff;
+}
+
+/* queri */
+
+@media screen and (max-width: 900px) {
+    .clientes .containercards .cards_container .conta {
+        width: 100%;
+        padding: 0;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .clientes .containercards .cards_container {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .clientes .containercards .cards_container h3 {
+        text-align: center;
+    }
+
+    .clientes .containercards .cards_container p {
+        text-align: center;
+    }
+}
+
+
+
+
+

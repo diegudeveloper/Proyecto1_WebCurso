@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.container_servicios {
+    background-color: #ecf0f1;
+}
+
+.servicios {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios .text_servicios {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.servicios .containerservicios {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.servicios .containerservicios .cards_container {
+    width: 30%;
+}
+
+.servicios .containerservicios .cards_container .containerserv {
+    width: 100%;
+}
+
+.servicios .containerservicios .cards_container .containerserv .foto {
+    width: 80%;
+    object-fit: cover;
+}
+
+.servicios .containerservicios .cards_container .textservice {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+
+
+.servicios .containerservicios .cards_container .textservice h3, p {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* queri */
+
+@media screen and (max-width: 360px) {
+    .servicios .containerservicios .cards_container {
+        width: 100%;
+        margin-bottom: 2rem;
+        border: 1px solid #000;
+        border-radius: 3px;
+    }
+
+    .servicios .containerservicios .cards_container .containerserv {
+        padding: 2rem;
+    }
+    
+    .servicios .containerservicios .cards_container .containerserv .foto {
+        width: 100%;
+    }
+}
+

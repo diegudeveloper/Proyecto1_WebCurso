@@ -64,8 +64,8 @@
 
 
 .clientes .containercards .cards_container .conta {
-    width: 68%;
-    padding: 2rem;
+    width: 70%;
+    padding: 0.5rem;
 }
 
 .clientes .containercards .foto img {
@@ -81,7 +81,7 @@
 
 .clientes .containercards .cards_container p {
     width: 100%;
-    text-align: justify;
+    text-align: left;
     color: #fff;
 }
 

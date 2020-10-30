@@ -1,33 +1,35 @@
-# Proyecto1_WebCurso
-
-**Proyecto de Página Web aplicando Maquetación / Posicionamiento de cajas con la propiedad Flexbox.**
-
-En el proyecto se busca mostrar todos los conocimientos aprendido asi como las buenas prácticas y el desarrollo del mismo con el menor código posible, utilizando el modelo de diseño **flexbox y Rensposive Desing.**
-
-**La maquetación** web es el proceso en el que el prototipo gráfico también denominado «layout» pasa a transformase en código html, css y js (estándares web) para que los navegadores puedan interpretarlo correctamente.
-
-**Flex** es uno de los nuevos valores HTML5 para propiedad CSS display , que nos permite maquetar nuestras páginas web de una manera mucho más fácil de lo que se hacía con la forma tradicional, en la que utilizábamos propiedades como float o position, entre otras.
-
-El **Responsive Design o diseño adaptativo**, es la técnica que se usa en la actualidad para tener una misma web adaptada a las diferentes plataformas que nos brinda la tecnología: ordenador, tablet y Smartphone.
-Consiste en una serie de hojas de estilo en CSS3, que usando el atributo “mediaquery” convierten una web ordinaria en una web multiplataforma capaz de adaptarse a todos los tamaños que existen, ofreciendo una experiencia para el usuario mucho más amena y cubriendo las necesidades de nuestro público. Atrás quedan las webs que vistas en un Smartphone se tenían que ampliar para poder leer algo.
+# 📝 Proyecto 01. Elaboracion de una Pagina Web que representa una plataforma de educación online.
 
 
-## Estructura del Proyecto.
+## ✍🏻 Descripción 
+Ese proyecto fue construido con los conocimientos adquiridos con el curso de: Html y Css en Platzi.  El mismo consta de la elaboración de una pagina web que representa una plataforma de educación online.
 
-La estructura del proyecto está basada en dos lenguajes, el primero es el **Lenguaje de Marcas de Hipertexto (html)** y el segundo es **Hojas de estilos de cascadas (Css).**
+## ▶️ Comienza
+Solo debes ingresar al siguiente link para ver el Proyecto : [Proyecto 01](http://https://diegudeveloper.github.io/Proyecto1_WebCurso/ "Proyecto 01") y asi poder darme tu feedback.
 
-Dicho proyecto cuenta con un Header y un Main el cual dentro del mismo esta compuesto por 5 Section:
+## 👨🏻‍💻 Tecnologías
+1. Html
+2. Css
 
-- Section "About Us"
-- Section "Portafolio"
-- Section "Clientes"
-- Section "Servicios"
-- Section "Footer"
+## 📈 Avance
+<details>
+    <summary>🖥 Desktop version</summary>
 
-El proyecto cuenta con el **Responsive Desing** o **Diseño Adaptativo** para que el mismo pueda ser visto a traves de los diferentes dispositivos: ordenador, tablet y Smartphone.
-
-A continuación se adjuta la imagen del Proyecto:
+![](src/Img/desktop.png)
 
 
-**Pantalla de Pc**
-![Web_curso](https://user-images.githubusercontent.com/62949966/79131991-7d994b80-7d77-11ea-8042-dabf1172b801.png)
+</details>
+
+<details>
+    <summary>📱 Mobile version</summary>
+    
+![](src/Img/mobile.png)
+
+</details>
+
+<details>
+    <summary>✉️ Cards</summary>
+    
+![](src/img/cards.png)
+
+</details>

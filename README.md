@@ -22,6 +22,6 @@ Solo debes ingresar al siguiente link para ver el Proyecto: [Proyecto 1](https:/
 <details>
     <summary>📱 Mobile version</summary>
     
-![](src/Img/movil.png)
+![](https://github.com/diegudeveloper/Proyecto1_WebCurso/blob/gh-pages/Img/movil.jpg)
 
 </details>

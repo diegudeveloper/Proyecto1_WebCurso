@@ -15,7 +15,7 @@ Solo debes ingresar al siguiente link para ver el Proyecto: [Proyecto 1](https:/
 <details>
     <summary>🖥 Desktop version</summary>
 
-![](src/Img/desktop.png)
+![](https://github.com/diegudeveloper/Proyecto1_WebCurso/blob/gh-pages/Img/desktop.png)
 
 </details>
 

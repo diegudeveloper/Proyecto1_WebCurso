@@ -1,4 +1,4 @@
-# 📝 Proyecto 01. Elaboracion de una Pagina Web que representa una plataforma de educación online.
+# 📝 Proyecto 01. Elaboracion de una Pagina Web para una plataforma de educación online.
 
 
 ## ✍🏻 Descripción 

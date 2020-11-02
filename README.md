@@ -1,11 +1,11 @@
-# 📝 Proyecto 01. Elaboracion de una Pagina Web para una plataforma de educación online.
+# 📝 Proyecto 01. Elaboración de una Pagina Web para una plataforma de educación online.
 
 
 ## ✍🏻 Descripción 
-Ese proyecto fue construido con los conocimientos adquiridos con el curso de: Html y Css en Platzi.  El mismo consta de la elaboración de una pagina web que representa una plataforma de educación online.
+Ese proyecto fue construido con los conocimientos adquiridos con el curso de: Html y Css en Platzi.  El mismo consta de la elaboración de una página web que representa una plataforma de educación online.
 
 ## ▶️ Comienza
-Solo debes ingresar al siguiente link para ver el Proyecto: [Proyecto 1](https://diegudeveloper.github.io/Proyecto1_WebCurso/) y asi poder darme tu feedback.
+Solo debes ingresar al siguiente link para ver el Proyecto: [Proyecto 1](https://diegudeveloper.github.io/Proyecto1_WebCurso/) y así poder darme tu feedback.
 
 ## 👨🏻‍💻 Tecnologías
 1. Html

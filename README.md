@@ -24,6 +24,4 @@ Solo debes ingresar al siguiente link para ver el Proyecto: [Proyecto 1](https:/
     
 ![](https://github.com/diegudeveloper/Proyecto1_WebCurso/blob/gh-pages/Img/movil.jpg)
 
--[Gregory Vicent](https://github.com/Gregory142000)
-
 </details>

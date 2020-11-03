@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+/* Se agrego la pripiedad "scroll-behavior: smooth" que controla el desplazamiento suave del scroll */
+html{
+    scroll-behavior: smooth;
+}
+
 /* Header */
 
 body {
@@ -18,16 +23,23 @@ body {
 }
 
 
+/* Alterado */
 .container_menu {
-    width: 80%;
+    /* Se cambio el "width" a 100%*/
+    width: 100%;
     min-width: 30%;
     height: 5em;
     margin-left: auto;
     margin-right: auto;
-
+    /* El "position" fue cambiado a "fixed" para que el nav se desplace con nosotros */
+    position: fixed;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-wrap: wrap;
+    /* Se altero el color de fondo del nav */
+    background-color: rgba(251, 251, 251, 0.7);
+    /* El "z-index" fue alterado a un valor alto para que el nav no se vea opacado por ningun otro elemento */
+    z-index: 999;
 }
 
 .container_menu .boton {
@@ -44,12 +56,28 @@ body {
     display: flex;
 }
 
+/* Alterado */
 .menu ul li {
     padding: 0 0.5rem;
     list-style: none;
     display: flex;
+    /* De esta forma las "li" estan centradas*/
     justify-content: center;
     align-items: center;
+    /* Le agregue algo de "margin" a las "li" para que se vean tan acumuladas */
+    margin: 0 2vw;
+    /* Se establecio un valor relativo para la letra de los enlaces */
+    font-size: 1rem;
+    /* "Transition" controla la animacion de las letras del "li" */
+    transition: all 0.3s ease;
+}
+/* Alterado */
+
+/* Esto nos permite aumentar ligeramente el tañano de los enlaces al poner el cursor sobre ellos */
+.menu ul li:hover{
+
+    font-size: 1.3rem;
+
 }
 
 .menu ul li a:hover {
@@ -126,7 +154,7 @@ body {
 /* Media Queri */
 
 @media screen and (max-width:450px) {
-    .container_menu
+    /*    .container_menu    /* Esta linea te producia un error */
 }
 
 @media screen and (max-width:700px) {
